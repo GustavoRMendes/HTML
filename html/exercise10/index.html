@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <legend>Cadastro</legend>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br> 
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+        <br> <hr>
+        <strong>Gênero</strong> <br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="m">
+        <br>
+        <label for="feminino">Feminino:</label>
+        <input type="radio" name="genero" id="feminino" value="f">
+        <br> <hr>
+        <strong>Área</strong> <br>
+        <label for="back">Back-End</label>
+        <input type="checkbox" name="area" id="back"><br>
+        <label for="front">Front-End</label>
+        <input type="checkbox" name="area" id="front"><br>
+        <label for="full">Full-Stack</label>
+        <input type="checkbox" name="area" id="full">
+        <br> <hr>
+        <strong>Data de Nascimento</strong> <br> 
+        <label for="data">Data</label>
+        <input type="date" name="data" id="data">
+        <br> <hr>
+        <label for="situacao">Situação</label>
+        <select name="situacao" id="situacao">
+            <option selected="Selecione" disabled >Selecione</option>
+            <option value="empregado">Empregado</option>
+            <option value="empregado">Desempregado</option>
+        </select> <br> <hr>
+        <label for="informacao">Informações sobre você:</label><br>
+        <textarea name="informacao" id="informacao" cols="30" rows="10" placeholder="Digite aqui..."></textarea>
+        <br>
+        <strong>Foto</strong> <br>
+        <label for="foto">Foto:</label>
+        <input type="file" name="arquivo" id="foto">
+        <br> <br>
+        <button type="submit">Enviar</button>
+    
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
